@@ -5,7 +5,7 @@ function shortenURL() {
     var longUrl = document.getElementById('url').value.trim();
     
     // Make a request to your backend API to shorten the URL
-    fetch('http://localhost:3000/shorten', {
+    fetch('https://bensmulian.github.io/Smart-link-Server-Side/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
